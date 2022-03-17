@@ -9,3 +9,6 @@ spec:
     git: https://github.com/denniszielke/hello_arc.git
     path: charts/ingress-nginx
     ref: master
+  values:
+    controller.service.type: LoadBalancer
+    service.type: LoadBalancer
