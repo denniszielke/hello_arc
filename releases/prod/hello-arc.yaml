@@ -6,12 +6,12 @@ metadata:
 spec:
   releaseName: hello-arc-prod
   chart:
-    git: https://github.com/likamrat/hello_arc.git
+    git: https://github.com/denniszielke/hello_arc.git
     path: charts/hello-arc
     ref: master
   values:
     image:
-      repository: liorkamrat/hello-arc
+      repository: denniszielke/hello-arc
       tag: latest
     replicaCount: 1
     env:
