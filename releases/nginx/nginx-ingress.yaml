@@ -9,5 +9,3 @@ spec:
     git: https://github.com/denniszielke/hello_arc.git
     path: charts/ingress-nginx
     ref: master
-  values:
-    replicaCount: 3
